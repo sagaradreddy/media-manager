@@ -74,7 +74,3 @@ This is a full-stack web application that allows users to manage a list of their
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or features.
-
-## License
-
-This project is licensed under the MIT License.
