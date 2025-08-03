@@ -19,8 +19,8 @@ favorite-media-app
 │   │   │   └── database.ts
 │   │   ├── controllers
 │   │   │   └── mediaController.ts
-│   │   ├── models
-│   │   │   └── media.ts
+│   │   ├── validation
+│   │   │   └── mediaValidation.ts
 │   │   ├── routes
 │   │   │   └── mediaRoutes.ts
 │   │   └── types
@@ -33,11 +33,9 @@ favorite-media-app
 │   │   ├── App.tsx
 │   │   ├── main.tsx
 │   │   ├── components
-│   │   │   ├── MediaTable.tsx
-│   │   │   ├── MediaForm.tsx
-│   │   │   └── InfiniteScroll.tsx
 │   │   ├── pages
 │   │   │   └── Home.tsx
+|   |   |   |___ Login.tsx
 │   │   ├── services
 │   │   │   └── api.ts
 │   │   └── types
@@ -52,7 +50,8 @@ favorite-media-app
 ## Getting Started
 
 ### Prerequisites
-
+-tilwind.css
+-react.js
 - Node.js
 - MySQL
 
@@ -104,7 +103,3 @@ favorite-media-app
 
 - Access the application in your web browser at `http://localhost:3000`.
 - Use the interface to manage your favorite movies and TV shows.
-
-## License
-
-This project is licensed under the MIT License.
